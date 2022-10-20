@@ -1,0 +1,15 @@
+$content-color: #4B4B4B;
+.contentDescription {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  .contentText {
+    width: 245px;
+    font-weight: 300;
+    font-size: 14px;
+
+    color: $content-color;
+  }
+}

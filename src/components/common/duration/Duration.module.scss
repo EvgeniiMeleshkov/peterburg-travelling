@@ -1,0 +1,19 @@
+.duration {
+  font-weight: 400;
+  font-size: 15px;
+  padding-top: 15px;
+  color: #9E9E9E;
+
+  .clocks {
+    img {
+      padding-left: 12px;
+      padding-right: 9px;
+      height: 18px;
+      opacity: 40%;
+    }
+  }
+
+  .hours {
+    position: absolute;
+  }
+}

@@ -1,0 +1,16 @@
+$content-color: #4B4B4B;
+.cardContainer {
+  box-sizing: border-box;
+  line-height: 20px;
+  width: 345px;
+  height: min-content;
+  border: 0.3px solid #828282;
+  border-radius: 16px;
+
+  .descriptionContainer {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,21 @@
+$time-label-color: #D9E8FF;
+.departureTimes{
+  margin: 5px 17px 5px 47px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  .timeInstance {
+    margin: 3px;
+    width: 63px;
+    height: 24px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #343434;
+    background: $time-label-color;
+    border-radius: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
