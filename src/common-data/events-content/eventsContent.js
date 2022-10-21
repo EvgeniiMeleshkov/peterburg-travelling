@@ -1,4 +1,4 @@
-export const cardContent = [
+export const eventsContent = [
     {
         id: 1,
         text: 'Билет на целый день'

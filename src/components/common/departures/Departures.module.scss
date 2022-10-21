@@ -6,6 +6,7 @@ $time-label-color: #D9E8FF;
   flex-wrap: wrap;
 
   .timeInstance {
+    cursor: pointer;
     margin: 3px;
     width: 63px;
     height: 24px;
@@ -17,5 +18,9 @@ $time-label-color: #D9E8FF;
     display: flex;
     justify-content: center;
     align-items: center;
+    &:hover {
+      background: #6BA6FF;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+    }
   }
 }

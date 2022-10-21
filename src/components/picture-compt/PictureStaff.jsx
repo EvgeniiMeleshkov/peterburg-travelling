@@ -1,7 +1,6 @@
 import s from "./PictureStaff.module.scss";
-import picture from "../../assets/cards-pictures/kazanskiy-sobor.jpeg";
 
-const PictureStaff = ({labelText, labelVariant, pictureLabelText}) => {
+const PictureStaff = ({picture, labelText, labelVariant, pictureLabelText}) => {
     return (
         <div className={s.pictureBlock}>
             <div style={labelVariant}>

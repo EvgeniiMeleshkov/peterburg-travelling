@@ -4,7 +4,7 @@ $gray-main: #404040;
   height: 44px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   margin: 20px;
 
@@ -21,7 +21,8 @@ $gray-main: #404040;
   }
 
   .button {
-    margin: 20px;
+    cursor: pointer;
+    margin: 20px 0 20px 0;
     height: 44px;
     width: 165px;
     font-size: 14px;
