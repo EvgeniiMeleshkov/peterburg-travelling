@@ -1,4 +1,7 @@
-*, *:after, *:before {box-sizing: border-box;}
+*, *:after, *:before {
+  box-sizing: border-box;
+  font-style: normal;
+}
 
 body {
   display: flex;

@@ -6,14 +6,9 @@ import {eventsContent} from './common-data/events-content/eventsContent'
 function App() {
     return (
         <div className="App">
-            <Card
-                {...cardsContent.yellowNew}
-                cardContent={eventsContent}
-            />
-            <Card
-                {...cardsContent.purpleNew}
-                cardContent={eventsContent}
-            />
+            {cardsContent.map(el => {
+                return <Card {...el} eventsContent={eventsContent}/>
+            })}
         </div>
     );
 }

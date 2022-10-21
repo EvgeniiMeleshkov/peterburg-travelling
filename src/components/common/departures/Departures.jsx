@@ -19,8 +19,10 @@ const Departures = () => {
     }).slice(0, num)
 
     return (
-        <div className={s.departureTimes}>
+        <div className={s.departureTimesContainer}>
+            <div className={s.departureTimes}>
                 {timeForRender}
+            </div>
         </div>
     );
 };

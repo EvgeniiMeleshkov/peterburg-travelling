@@ -1,5 +1,7 @@
 $content-color: #4B4B4B;
 .cardContainer {
+  display: flex;
+  flex-direction: column;
   margin-top: 2rem;
   box-sizing: border-box;
   line-height: 20px;
@@ -14,5 +16,12 @@ $content-color: #4B4B4B;
     flex-direction: column;
     height: 150px;
     justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 1071px) {
+  .cardContainer {
+    flex-direction: row;
+    width: 1070px;
   }
 }

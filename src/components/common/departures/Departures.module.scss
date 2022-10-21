@@ -24,3 +24,13 @@ $time-label-color: #D9E8FF;
     }
   }
 }
+
+@media screen and (min-width: 1071px) {
+  .departureTimes {
+    .timeInstance {
+      width: 73px;
+      height: 28px;
+    }
+  }
+}
+

@@ -5,7 +5,7 @@ const Content = ({contentText}) => {
     return (
         <div className={s.contentDescription}>
             <CheckBox/>
-            <div className={s.contentText}>{contentText}</div>
+            <span className={s.contentText}>{contentText}</span>
         </div>
     );
 };

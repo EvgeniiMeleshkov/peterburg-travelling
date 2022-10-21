@@ -1,23 +1,24 @@
 $yellow-main: #FED74B;
 $gray-main: #404040;
-.priceAndButton {
+.priceAndButtonContainer {
   height: 44px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
   margin: 20px;
+  .priceAndButton {
+    .price {
+      display: flex;
+      align-items: center;
+      font-size: 30px;
+      justify-content: flex-start;
+    }
 
-  .price {
-    display: flex;
-    align-items: center;
-    font-size: 30px;
-    justify-content: flex-start;
-  }
-
-  .onPearce {
-    font-size: 10px;
-    font-weight: 300;
+    .onPearce {
+      font-size: 10px;
+      font-weight: 300;
+    }
   }
 
   .button {
@@ -31,5 +32,24 @@ $gray-main: #404040;
     border: 0.5px solid #CBA500;
     border-radius: 20px;
     color: $gray-main;;
+  }
+}
+
+@media screen and (min-width: 1071px) {
+  .priceAndButtonContainer {
+    .price {
+      font-size: 36px;
+    }
+    .onPearce {
+      font-size: 14px;
+    }
+    justify-content: flex-start;
+    .button {
+      width: 187px;
+      height: 52px;
+      font-size: 18px;
+      font-weight: 400;
+      margin: 20px 20px 20px 30px;
+    }
   }
 }

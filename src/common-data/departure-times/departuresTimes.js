@@ -4,5 +4,5 @@ export const departuresTimes = [
     {time: '13:00'},
     {time: '13:30'},
     {time: '14:00'},
-    {time: '14:30'},
+    {time: '14:30'}
 ]
