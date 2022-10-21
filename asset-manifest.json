@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/peterburg-travelling/static/css/main.7ebb6d28.css",
+    "main.js": "/peterburg-travelling/static/js/main.30cb7141.js",
+    "static/media/bridge.png": "/peterburg-travelling/static/media/bridge.0befb383ebd8a2599583.png",
+    "static/media/chapel.png": "/peterburg-travelling/static/media/chapel.bec6fc1e547b9c26f4b5.png",
+    "static/media/music.png": "/peterburg-travelling/static/media/music.27ff8e94fa64de8bb54a.png",
+    "static/media/kazanskiy-sobor.jpeg": "/peterburg-travelling/static/media/kazanskiy-sobor.e7781797b1a646acf2fa.jpeg",
+    "static/media/kazanskSobor2.jpeg": "/peterburg-travelling/static/media/kazanskSobor2.0821d93a292d26bfbb1e.jpeg",
+    "static/media/clocks.png": "/peterburg-travelling/static/media/clocks.deb2231cb0de141d6528.png",
+    "index.html": "/peterburg-travelling/index.html",
+    "main.7ebb6d28.css.map": "/peterburg-travelling/static/css/main.7ebb6d28.css.map",
+    "main.30cb7141.js.map": "/peterburg-travelling/static/js/main.30cb7141.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7ebb6d28.css",
+    "static/js/main.30cb7141.js"
+  ]
+}
