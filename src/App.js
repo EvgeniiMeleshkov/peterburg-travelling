@@ -7,7 +7,7 @@ function App() {
     return (
         <div className="App">
             {cardsContent.map(el => {
-                return <Card {...el} eventsContent={eventsContent}/>
+                return <Card key={el.id} {...el} eventsContent={eventsContent}/>
             })}
         </div>
     );

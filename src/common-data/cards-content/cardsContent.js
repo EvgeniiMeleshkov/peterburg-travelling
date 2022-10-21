@@ -6,7 +6,8 @@ import music from '../../assets/cards-pictures/music.png'
 
 export const cardsContent =
     [
-         {
+        {
+            id: 1,
             labelText: 'Новинка',
             picture: kazanskySobor1,
             price: 900,
@@ -33,7 +34,8 @@ export const cardsContent =
             }
         },
 
-       {
+        {
+            id: 2,
             labelText: 'Новинка',
             picture: kazanskySobor2,
             price: 2900,
@@ -65,7 +67,8 @@ export const cardsContent =
             }
         },
 
-       {
+        {
+            id: 3,
             labelText: 'Новинка',
             picture: bridge,
             price: 900,
@@ -93,6 +96,7 @@ export const cardsContent =
         },
 
         {
+            id: 4,
             labelText: 'Круглый город',
             picture: chapel,
             price: null,
@@ -119,10 +123,11 @@ export const cardsContent =
             }
         },
 
-         {
+        {
+            id: 5,
             labelText: null,
             picture: music,
             price: 900,
-            onPearce: 1200,
+            onPearce: null,
         },
     ]

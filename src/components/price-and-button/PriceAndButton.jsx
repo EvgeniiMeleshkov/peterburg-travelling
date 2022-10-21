@@ -6,7 +6,9 @@ const PriceAndButton = ({price, onPearce}) => {
             {price !== null &&
                 <div className={s.priceAndButton}>
                     <label className={s.price}>{price} ₽</label>
-                    <label className={s.onPearce}>{onPearce} р на причале</label>
+                    {onPearce !== null &&
+                        <label className={s.onPearce}>{onPearce} р на причале</label>
+                    }
                 </div>
             }
             <button className={s.button}>
