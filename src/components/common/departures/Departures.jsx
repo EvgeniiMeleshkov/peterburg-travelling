@@ -18,6 +18,7 @@ const Departures = () => {
         )
     }).slice(0, num)
 
+
     return (
         <div className={s.departureTimesContainer}>
             <div className={s.departureTimes}>
