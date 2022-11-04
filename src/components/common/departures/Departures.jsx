@@ -12,7 +12,7 @@ const Departures = () => {
 
     const timeForRender = departuresTimes.map((el, idx) => {
         return (
-            <label onClick={onClickHandler} key={idx} className={s.timeInstance}>
+            <label onClick={idx === 3 ? onClickHandler : ()=>{}} key={idx} className={s.timeInstance}>
                 {idx === 3 && num === 4 ? "еще" : el.time}
             </label>
         )
